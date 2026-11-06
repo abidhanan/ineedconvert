@@ -1,0 +1,29 @@
+# I Need Convert
+
+> I Need Convert adalah konverter file gratis berbasis browser. File diproses langsung di perangkat pengguna dan tidak diunggah ke server kami.
+
+## Kemampuan utama
+
+- Konversi gambar: JPG, PNG, WEBP, HEIC, GIF, BMP, ICO, SVG, TIFF, dan AVIF.
+- Konversi video: MP4, WEBM, MOV, MKV, AVI, FLV, WMV, 3GP, MPEG, dan GIF.
+- Konversi audio: MP3, WAV, M4A, OGG, AAC, FLAC, OPUS, WMA, dan AIFF.
+- Konversi dokumen dan PDF: PDF, DOCX, TXT, Markdown, dan HTML.
+- Konversi spreadsheet dan data: XLSX, XLS, ODS, CSV, TSV, JSON, YAML, dan XML.
+- Ekstraksi atau pembuatan arsip ZIP dan konversi Base64.
+- Gratis, tanpa pendaftaran, dan dapat memproses banyak file sekaligus.
+
+## Halaman penting
+
+- [Konverter utama](https://ineedconvert.com/)
+- [Daftar artikel dan panduan](https://ineedconvert.com/artikel/)
+- [Kebijakan privasi](https://ineedconvert.com/kebijakan-privasi/)
+- [Syarat dan ketentuan](https://ineedconvert.com/syarat-ketentuan/)
+
+## Informasi faktual
+
+- Nama layanan: I Need Convert
+- Situs resmi: https://ineedconvert.com/
+- Pengelola: Abid Hanan Wicaksono
+- Harga: Gratis
+- Pemrosesan: Lokal di browser pengguna
+- Privasi file: File tidak diunggah atau disimpan oleh server I Need Convert

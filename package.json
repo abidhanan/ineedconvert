@@ -1,0 +1,34 @@
+{
+  "name": "ineedconvert",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "generate:og": "node scripts/make-og-image.mjs",
+    "update:titles": "node scripts/update-meta-titles.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cloudflare:dev": "npm run build && wrangler dev",
+    "cloudflare:deploy": "npm run build && wrangler deploy",
+    "test:worker": "node --test worker/index.test.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "vite": "^6.4.5",
+    "wrangler": "^4.152.0"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "fast-xml-parser": "^5.11.2",
+    "fflate": "^0.8.3",
+    "heic2any": "^0.0.4",
+    "js-yaml": "^5.5.0",
+    "jspdf": "^4.2.1",
+    "mammoth": "^1.13.0",
+    "marked": "^18.1.1",
+    "pdfjs-dist": "^4.10.38",
+    "xlsx": "^0.18.5"
+  }
+}

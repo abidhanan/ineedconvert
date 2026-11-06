@@ -1,0 +1,19 @@
+{
+  "name": "I Need Convert - Konversi Semua File Gratis",
+  "short_name": "I Need Convert",
+  "description": "Konversi gambar, video, audio, dokumen, PDF, spreadsheet, dan data secara gratis langsung di browser.",
+  "lang": "id-ID",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
