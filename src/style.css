@@ -235,10 +235,14 @@ strong { font-weight: 600; }
 .pattern-dots::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='12' cy='12' r='1.5'/%3E%3C/svg%3E"); mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Ccircle cx='12' cy='12' r='1.5'/%3E%3C/svg%3E"); }
 
 /* ---------- full-screen sections (desktop and tablet) ---------- */
-.screen {
-  min-height: calc(100vh - var(--header-h));
-  min-height: calc(100svh - var(--header-h));
-  display: flex; flex-direction: column; justify-content: center;
+/* Each section fills the screen only on a real desktop (mouse). On touch devices, including a phone
+   in "desktop site" mode, the viewport is very tall, so full-screen sections would leave huge gaps. */
+@media (hover: hover) and (pointer: fine) {
+  .screen {
+    min-height: calc(100vh - var(--header-h));
+    min-height: calc(100svh - var(--header-h));
+    display: flex; flex-direction: column; justify-content: center;
+  }
 }
 
 /* ---------- hero ---------- */
